@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## This function will return a list containg functions to
+## set and get the value of the matrix, and set and get the solve value
+## of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +18,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The following function checks for a cached value and if present returns
+## the cached value.  If the cached value is null, the solve value is
+## calculated and is cached.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
